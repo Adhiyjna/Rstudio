@@ -1,0 +1,8 @@
+#accept numbers
+x<-c(20,98,293,392)
+x                        #output:[1] 1 3 4 5
+
+labels<-c("india","australia","new york","london")
+labels                    #output:[1] "india" "australia" "new york" "london"
+
+pie(x,labels)
